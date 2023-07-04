@@ -1,12 +1,12 @@
-import React from 'react'
+
+import React from 'react';
 import './App.css'
 
-function App() {
+export default function App() {
+
   return (
     <React.Fragment>
-      <h1>Northwind</h1>
+    <h1 className="p-mt-4">Northwind</h1>
     </React.Fragment>
-  )
+  );
 }
-
-export default App
